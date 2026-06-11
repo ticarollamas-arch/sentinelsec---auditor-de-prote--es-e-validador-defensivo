@@ -1,0 +1,11 @@
+[Espaço Reservado de Banco de Dados local para o SQLite3 de Auditoria]
+Tabela: "audit_logs"
+Campos:
+- id (INTEGER, AUTOINCREMENT)
+- timestamp (TEXT)
+- target_url (TEXT)
+- compliance_score (REAL)
+- missing_headers (TEXT)
+- status (TEXT)
+
+Este arquivo codifica seus relatórios de compliance e higiene de canais de forma estéril.
