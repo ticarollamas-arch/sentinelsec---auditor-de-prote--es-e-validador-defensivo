@@ -1,0 +1,25 @@
+{
+  "target_system_url": "https://owasp.org/www-project-top-ten/",
+  "expected_headers": {
+    "Content-Security-Policy": {
+      "required": true,
+      "criticality": "ALTA",
+      "default": "default-src 'self'"
+    },
+    "X-Frame-Options": {
+      "required": true,
+      "criticality": "ALTA",
+      "default": "SAMEORIGIN"
+    },
+    "X-Content-Type-Options": {
+      "required": true,
+      "criticality": "MEDIA",
+      "default": "nosniff"
+    },
+    "Strict-Transport-Security": {
+      "required": true,
+      "criticality": "ALTA",
+      "default": "max-age=31536000; includeSubDomains"
+    }
+  }
+}
